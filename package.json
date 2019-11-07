@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index",
+    "dev": "nodemon src/index"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,8 @@
     "express": "^4.17.1",
     "mongoose": "^5.7.8",
     "validator": "^12.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
   }
 }
